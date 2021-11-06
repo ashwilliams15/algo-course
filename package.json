@@ -1,0 +1,19 @@
+{
+  "name": "algo-course",
+  "version": "1.0.0",
+  "description": "This is a place where I am storing notes, algorithm practice problems, and insights from The Missing Computer Science and Coding Interview Bootcamp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwilliams15/algo-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwilliams15/algo-course/issues"
+  },
+  "homepage": "https://github.com/ashwilliams15/algo-course#readme"
+}
