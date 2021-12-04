@@ -7,7 +7,7 @@
 
 function maxSubarraySum(arr, n) {
   let maxSum = 0;
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length - n + 1; i++) {
     let currentSum = 0;
     currentSum += arr[i];
     for (let j = i + 1; j < n; j++) {
