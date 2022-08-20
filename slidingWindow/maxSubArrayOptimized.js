@@ -16,6 +16,7 @@ function maxSubarraySum(arr, n) {
   }
   tempSum = maxSum;
   for (let i = n; i < arr.length; i++) {
+    // the subtraction is the first number that made up the tempSum array
     tempSum = tempSum - arr[i - n] + arr[i];
     if (tempSum > maxSum) {
       maxSum = tempSum;
